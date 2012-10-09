@@ -13,8 +13,8 @@ setup(
     license="Simplified BSD",
     packages=["djcelery_transactions"],
     install_requires=[
-        "celery>=2.4.2",
-        "Django>=1.3",
+        "celery",
+        "Django",
     ],
     classifiers=[
         "Framework :: Django",
